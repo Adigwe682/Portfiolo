@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main #section1{
+    background-image:url(../images/linkedin.jpg);
+    background-position:center;
+    background-size: cover; 
+}
+#myP {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+   .animate {
+    opacity: 1;
+  }
+   section div .image{
+    filter: brightness(100%) saturate(800%) contrast(200%) sepia(200%) grayscale(80%) ;
+   }
+ 
