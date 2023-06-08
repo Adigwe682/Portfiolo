@@ -2,6 +2,11 @@ const btn = document.getElementById('btn')
 const mobilemenu= document.getElementById('mobilemenu')
 const close = document.getElementById('close')
 const mobileoverlay = document.getElementById('mobile-overlay')
+const home = document.getElementById('home')
+const about = document.getElementById('about')
+const portfiolo = document.getElementById('project')
+const contact= document.getElementById('contact')
+
 btn.addEventListener('click', navToggle)
 function navToggle() {  
     mobilemenu.classList.toggle('right-0')
@@ -10,6 +15,34 @@ function navToggle() {
     mobileoverlay.classList.toggle('hidden')
 } 
 close.addEventListener('click', navToggle)
+function navToggle() {
+    mobilemenu.classList.toggle('right-[-300px]')
+    mobilemenu.classList.toggle('right-0')
+    mobileoverlay.classList.toggle('hidden')
+    mobileoverlay.classList.toggle('block')
+} 
+home.addEventListener('click', navToggle)
+function navToggle() {
+    mobilemenu.classList.toggle('right-[-300px]')
+    mobilemenu.classList.toggle('right-0')
+    mobileoverlay.classList.toggle('hidden')
+    mobileoverlay.classList.toggle('block')
+} 
+about.addEventListener('click', navToggle)
+function navToggle() {
+    mobilemenu.classList.toggle('right-[-300px]')
+    mobilemenu.classList.toggle('right-0')
+    mobileoverlay.classList.toggle('hidden')
+    mobileoverlay.classList.toggle('block')
+} 
+portfiolo.addEventListener('click', navToggle)
+function navToggle() {
+    mobilemenu.classList.toggle('right-[-300px]')
+    mobilemenu.classList.toggle('right-0')
+    mobileoverlay.classList.toggle('hidden')
+    mobileoverlay.classList.toggle('block')
+} 
+contact.addEventListener('click', navToggle)
 function navToggle() {
     mobilemenu.classList.toggle('right-[-300px]')
     mobilemenu.classList.toggle('right-0')
