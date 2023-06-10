@@ -848,6 +848,10 @@ video {
   border-top-right-radius: 100px;
 }
 
+.rounded-tr-\[50px\] {
+  border-top-right-radius: 50px;
+}
+
 .border-2 {
   border-width: 2px;
 }
