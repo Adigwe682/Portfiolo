@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+html
 
 header{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,6 +17,9 @@ main #section1{
     background-position:center;
     background-size: cover; 
 }
+/* main section{
+    scroll-snap-type: y mandatory;
+} */
 #myP {
     opacity: 0;
     transition: opacity 0.5s;

@@ -6,6 +6,7 @@ const home = document.getElementById('home')
 const about = document.getElementById('about')
 const portfiolo = document.getElementById('project')
 const contact= document.getElementById('contact')
+const services= document.getElementById('services')
 
 btn.addEventListener('click', navToggle)
 function navToggle() {  
@@ -43,6 +44,13 @@ function navToggle() {
     mobileoverlay.classList.toggle('block')
 } 
 contact.addEventListener('click', navToggle)
+function navToggle() {
+    mobilemenu.classList.toggle('right-[-300px]')
+    mobilemenu.classList.toggle('right-0')
+    mobileoverlay.classList.toggle('hidden')
+    mobileoverlay.classList.toggle('block')
+} 
+services.addEventListener('click', navToggle)
 function navToggle() {
     mobilemenu.classList.toggle('right-[-300px]')
     mobilemenu.classList.toggle('right-0')
