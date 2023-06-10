@@ -17,9 +17,7 @@ main #section1{
     background-position:center;
     background-size: cover; 
 }
-/* main section{
-    scroll-snap-type: y mandatory;
-} */
+
 #myP {
     opacity: 0;
     transition: opacity 0.5s;
@@ -28,7 +26,7 @@ main #section1{
    .animate {
     opacity: 1;
   }
-   section div .image{
-    filter: brightness(100%) saturate(800%) contrast(200%) sepia(200%) grayscale(80%) ;
+   .fa-whatsapp{
+    filter:  brightness(100%) saturate(800%) contrast(200%) sepia(200%) ;
    }
  
